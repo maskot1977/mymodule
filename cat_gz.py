@@ -43,4 +43,4 @@ def cat_gz(file, all=False, head=9):
 if __name__ == '__main__':
    args = sys.argv
    file = args[1]
-   catgz(file)
+   cat_gz(file)
