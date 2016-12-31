@@ -1,11 +1,11 @@
 import sys
-sys.path.append('/Users/yorname/ipython_notebook/mymodule')
+sys.path.append('/Users/kot/ipython_notebook/mymodule')
 import os
 import datetime
 import removeControlCharacter
 
 def itermLog(n):
-    path = '/Users/yourname/Documents/iTerm2_log/'
+    path = '/Users/kot/Documents/iTerm2_log/'
     files = os.listdir(path)
     
     files_with_time = []
