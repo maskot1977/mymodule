@@ -13,6 +13,9 @@ def birel_to_tabtable(file, outfile, transpose=False, symmetry=False, select='ma
    cols = set([])
    rows = set([])
    f = open(outfile, 'w')
+   if outfile[-3:] == '.gz':
+      f.close()
+      f = gzip.open(outfile, 'w')
    for i, line in enumerate(gzip.open(file)):
       a = line.strip().split("\t")
       row = a[0]
