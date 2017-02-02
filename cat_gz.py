@@ -6,7 +6,7 @@ from mymodule import elapsed_time
 from mymodule import elapsed_clock
 from mymodule import comma_numeral
 
-def cat_gz(file, all=False, head=9):
+def cat_gz(file, all=False, head=5):
    start_time = time.time()
    start_clock = time.clock()
    prev = ""
